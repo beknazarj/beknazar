@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html manifest="cmf.manifest">
+<head>
+<title>Offline Web Application</title>
+<script>
+function changeImage()
+{
+document.images["jsbutton"].src= "Images/tenor.gif";
+return true;
+}
+function changeImageMore()
+{
+document.images["jsbutton"].src= "Images/chidori.gif";
+return true;
+}
+</script>
+</head>
+<body>
+<img name="jsbutton" src="Images/chidori.gif" width="25%" height="25%" border="0">
+<br><input type=button onclick="changeImage()" value="Show Rasengan"></input>
+&nbsp;&nbsp;<input type=button onclick="changeImageMore()" value="Show Chidori"></input>
+</body>
+</html>
